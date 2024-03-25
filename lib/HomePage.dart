@@ -499,6 +499,9 @@ class _HomePageState extends State<HomePage> {
          padding: EdgeInsets.all(18.0),
          child: Column(
            children: [
+
+
+
              Text("Welcome to Decntralozed App",style: TextStyle(fontSize: 25),),
              W3MConnectWalletButton(service: _w3mService),
 
@@ -523,6 +526,8 @@ class _HomePageState extends State<HomePage> {
              ElevatedButton(onPressed: sigMessage, child: Text("Sign Message")),
 
              ElevatedButton(onPressed: transferToken, child: Text(" Send 10 AR Dapp Token",style: TextStyle(color: Colors.red),)),
+
+
 
            ],
          ),
